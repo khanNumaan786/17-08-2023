@@ -24,7 +24,9 @@ EAR = ENTERPRISE ARCHIVE
 ARCHITECTURE:
 
 SETUP: CREATE EC2
-yum install git java-1.8.0-openjdk maven tree -y
+#yum install git java-1.8.0-openjdk maven tree -y
+this below is upgraded by numaan
+sudo yum install git java-1.8.0-amazon-corretto-devel maven tree -y
 git clone https://github.com/devopsbyraham/jenkins-java-project.git
 cd jenkins-java-project.git
 
